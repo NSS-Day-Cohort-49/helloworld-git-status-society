@@ -1,0 +1,45 @@
+body {
+  background-color: antiquewhite;
+  justify-content: center;
+}
+
+.navbar {
+  flex: 1;
+  display: flex;
+}
+
+.nav-item {
+  flex: 1;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.lists {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+}
+
+.cityList {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.landmarksList {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.famousCitizensList {
+  flex: 1;
+  border: 1px solid black;
+}
+
+.copyright {
+  text-align: center;
+  padding: 100px;
+}
