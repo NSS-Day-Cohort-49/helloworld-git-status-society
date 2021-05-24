@@ -1,5 +1,9 @@
+body {
+    background-color: gold;
+}
 .list {
     display: flex;
+    flex-wrap: wrap;
 }
 .countryImage {
         display: block;
@@ -11,7 +15,7 @@
 .cityList {
     display: column;
    flex: 1;
-   
+   ;
 }
 .city {
     margin: 1em;
@@ -23,19 +27,22 @@
 max-height: 350px;
 }
 .landmarkList {
+
     display:column;
+    flex: 1;
 }
 .landmark{
     margin: 1em;
     padding: 1em;
     border: solid;
+    background-color: white;
 }
 .landmarkPic {
    max-height: 350px;
 }
 .famousCitizens {
     display: column;
-    
+    flex: 1;
    
 }
 .famous {
