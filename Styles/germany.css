@@ -1,0 +1,89 @@
+header {
+    border: 1px solid purple;
+} 
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.navbar-brand{
+    padding: 10px;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav-item{
+    padding-left: 100px;
+    padding-right: 100px;
+    color: black;
+}
+
+body {
+    background-color: rgb(195, 150, 199);
+    justify-content: center;
+}
+
+.lists{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: space-around;
+
+}
+
+.cityList{
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    text-align: left;
+}
+
+.landmarksList{
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    text-align: left;
+}
+
+.famousCitizenList{
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    text-align: left;
+}
+
+.footer{    
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    text-align: center;
+}
+
+.logoImage{
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    flex-shrink: 2;
+}
+
+.siteName{    
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    text-align: center;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid purple;
+}
+
+.countryImage{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid purple; 
+}
