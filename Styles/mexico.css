@@ -1,13 +1,21 @@
 body {
     background-color: gold;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+
+}
+.nav-item {
+    flex: 1;
 }
 .list {
     display: flex;
     flex-wrap: wrap;
 }
 .countryImage {
-        display: block;
-  margin-left: auto;
+display: block;
+margin-left: auto;
   margin-right: auto;
   width: 50%;
        
