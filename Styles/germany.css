@@ -15,15 +15,25 @@ header {
     margin-right: 200px;
 }
 
-.nav-item{
-    padding-left: 100px;
-    padding-right: 100px;
-    color: black;
+
+.navbar {
+    display: flex;
 }
+
+.nav-item {
+    flex: 1;
+}
+
+
+
 
 body {
     background-color: rgb(195, 150, 199);
     justify-content: center;
+}
+
+.mainPage{
+    display: flex;
 }
 
 .lists{
@@ -41,6 +51,13 @@ body {
     text-align: left;
 }
 
+.city{
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    text-align: left;
+}
+
 .landmarksList{
     border: 1px solid green;
     padding: 1em;
@@ -48,7 +65,21 @@ body {
     text-align: left;
 }
 
+.landmarks{
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    text-align: left;
+}
+
 .famousCitizenList{
+    border: 1px solid green;
+    padding: 1em;
+    margin: .5em;
+    text-align: left;
+}
+
+.citizens{
     border: 1px solid green;
     padding: 1em;
     margin: .5em;
@@ -74,12 +105,6 @@ body {
     padding: 1em;
     margin: .5em;
     text-align: center;
-}
-
-.navBar{
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid purple;
 }
 
 .countryImage{
