@@ -1,40 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="Styles/home.css">
-    <title>Home</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="Styles/germany.css">
+        <title>Document</title>
+    </head>
 <body>
-    <img src="Images/logo.png" alt="Git Good Logo">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Germany</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="greece.html">Greece</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="italy.html">Italy</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="mexico.html">Mexico</a>
-              </li>
-            </ul>
-          </div>
+    <img src="Images/logo.png" class="logo" alt="Git Good Logo">
+    <nav class="navbar">
+        <div class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
         </div>
-      </nav>
-      Germany 
+        <div class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Germany</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="greece.html">Greece</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="index.html">Italy</a>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link" href="mexico.html">Mexico</a>
+        </div>
+    </nav>
+
+    <header> 
+        <div class="logoImage"> <img src="Images/GermanChristmas.jpg" alt="A street view of Germany"></div>
+        <div class="siteName"><h1>Germany</h1></div>
+    </header>
+
+    <main class="mainPage">
+        <section class="lists">
+            <div class="cityList"> 
+                <h2>Famous Cities</h2>
+                    <div class="city">
+                        <h3>Berlin</h3>
+                        <img src="/BerlinPhoto.jpg" alt="Berlin">
+                        <p>The city of Berlin</p>
+                    </div>
+                    
+                    <div class="city">
+                        <h3>Hamburg</h3>
+                        <img src="/HamburgPhoto.jpg" alt="Hamburg">
+                        <p>The city of Hamburg</p>
+                    </div>
+                        
+                    <div class="city">
+                        <h3>Munich</h3>
+                        <img src="/MunichPhoto.jpg" alt="Munich">
+                        <p>The city of Munich</p>
+                    </div>
+            </div>
+
+            <div class="landmarksList"> 
+                <h2>Famous Landmarks</h2>
+                    <div class="landmarks">
+                        <h3>Cologne Cathedral</h3>
+                        <img src="/CologneCathedral.jpg" alt="CologneCathedral">
+                        <p>The Cologne Cathedral</p>
+                    </div>
+                    
+                    <div class="landmarks">
+                        <h3>Mercedes benz Museum</h3>
+                        <img src="/mercedes museum.jpg" alt="Mercedes Museum">
+                        <p>The Mercedes Museum </p>
+                    </div>
+                        
+                    <div class="landmarks">
+                        <h3>Berlin Wall</h3>
+                        <img src="/berlin-wall-germany" alt="berlin-wall-germany">
+                        <p>The Berlin Wall</p>
+                    </div>
+            </div>
+
+            <div class="famousCitizenList"> 
+                <h2>Famous Citizens</h2>
+                    <div class="citizens">
+                        <h3>Albert Einstein</h3>
+                        <img src="albert-einstein.jpg" alt="albert-einstein">
+                        <p>Albert Einstein</p>
+                    </div>
+                    
+                    <div class="citizens">
+                        <h3>Michael Fassbender</h3>
+                        <img src="michael-fassbender-09.jpg" alt="michael-fassbender">
+                        <p>Michael Fassbender</p>
+                    </div>
+                        
+                    <div class="citizens">
+                        <h3>Hans Zimmer</h3>
+                        <img src="sa-hans-zimmer-portrait_product_lkp_3413.webp" alt="Hans Zimmer">
+                        <p>Hans Zimmer</p>
+                    </div>
+            </div>
+        </section>
+    </main>
+    
+    <div class="footer">
+        Copyright 2021
+    </div>
 </body>
 </html>
+
