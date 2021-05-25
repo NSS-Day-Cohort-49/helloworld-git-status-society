@@ -8,11 +8,12 @@ body {
     margin-right: auto;
 }
 
-.navbar-brand {
+.navbar {
     padding: 10px;
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
+    display: flex;
 }
 
 .nav-item {
@@ -30,11 +31,60 @@ body {
 }
 
 .card-img-box {
-    height: 500px;
+    height: 300px;
     width: auto;
+    display: flex;
+    padding: 1em;
 }
 
-.margins {
+.greece-info {
     margin-right: 300px;
     margin-left: 300px;
+}
+
+.img-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cities-text {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3em;
+}
+
+.copyright {
+    margin-left: 500px;
+    margin-right: 500px;
+    text-align: center;
+}
+
+.greece-top {
+    border: 3px solid white;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.three-cities {
+    border: 3px solid white;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.card-text {
+    padding: 1em;
+}
+
+.card-box {
+    justify-content: center;
+}
+
+.card-title {
+    justify-content: center;
 }
