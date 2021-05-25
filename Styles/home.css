@@ -1,4 +1,39 @@
 body {
+  background-color: antiquewhite;
+  justify-content: center;
+}
+
+.navbar {
+  flex: 1;
+  display: flex;
+}
+
+.nav-item {
+  flex: 1;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.homePageBody {
+  text-align: center;
+  color: rgb(81, 131, 216);
+}
+
+.countriesDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  padding: %;
+}
+
+.countryPhoto {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+}
     background-color: #2878e7;
 }
 

@@ -27,16 +27,23 @@ body {
 .cityList {
   flex: 1;
   border: 1px solid black;
+  text-align: center;
+}
+
+.cityNames {
+  text-align: center;
 }
 
 .landmarksList {
   flex: 1;
   border: 1px solid black;
+  text-align: center;
 }
 
 .famousCitizensList {
   flex: 1;
   border: 1px solid black;
+  text-align: center;
 }
 
 .copyright {
