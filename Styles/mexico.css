@@ -1,0 +1,64 @@
+body {
+    background-color: gold;
+    justify-content: center;
+}
+.navbar {
+    display: flex;
+
+}
+.nav-item {
+    flex: 1;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.countryImage {
+display: block;
+margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+       
+}
+.cityList {
+    display: column;
+   flex: 1;
+   ;
+}
+.city {
+    margin: 1em;
+    padding: 1em;
+    border: solid;
+    background-color: #006341;
+}
+.cityPic{
+max-height: 350px;
+}
+.landmarkList {
+
+    display:column;
+    flex: 1;
+}
+.landmark{
+    margin: 1em;
+    padding: 1em;
+    border: solid;
+    background-color: white;
+}
+.landmarkPic {
+   max-height: 350px;
+}
+.famousCitizens {
+    display: column;
+    flex: 1;
+   
+}
+.famous {
+    margin: 1em;
+    padding: 1em;
+    border: solid;
+    background-color: #CE1126;
+}
+.famousPic {
+    max-height: 350px;
+}
